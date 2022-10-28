@@ -1,0 +1,38 @@
+{
+  "dependencies": {
+    "core-js": "^3.26.0",
+    "global": "^4.4.0",
+    "http-server": "^14.1.1",
+    "npm": "^8.19.2"
+  },
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "\"Browser based game\"",
+  "main": "index.js",
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.6",
+    "@babel/preset-env": "^7.19.4",
+    "eslint": "^8.26.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shutnikmiit/ajsEslint.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "shutnikmiit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shutnikmiit/ajsEslint/issues"
+  },
+  "homepage": "https://github.com/shutnikmiit/ajsEslint#readme"
+}
